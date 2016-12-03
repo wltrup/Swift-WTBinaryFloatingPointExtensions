@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
     WTBinaryFloatingPointExtensions adds a number of useful extensions to all floating types,
-    such as conversions between degrees and radians and uniform random distributions.
+    such as conversions between degrees and radians and uniform pseudo-random distributions.
                        DESC
 
   s.homepage         = 'https://github.com/wltrup/WTBinaryFloatingPointExtensions'
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'WTBinaryFloatingPointExtensions/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'WTBinaryFloatingPointExtensions' => ['WTBinaryFloatingPointExtensions/Assets/*.png']
   # }

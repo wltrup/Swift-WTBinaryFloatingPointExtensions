@@ -26,7 +26,7 @@ class WTBinaryFloatingPointExtensionsTestsBase: XCTestCase
     final func assertAbsoluteDifferenceWithinTolerance()
     { XCTAssertTrue(abs(resultedValue - expectedValue) <= tolerance) }
 
-    /// Tests that uniformly generated random values in the range [0, 1]
+    /// Tests that uniformly generated pseudo-random values in the range [0, 1]
     /// satisfy the properties that their average approaches 1/2 and their
     /// variance approaches 1/12, within a given tolerance.
     final func testRandomness(_ values: [Double])

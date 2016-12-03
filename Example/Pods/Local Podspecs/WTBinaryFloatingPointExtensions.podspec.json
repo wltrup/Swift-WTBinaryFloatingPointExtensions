@@ -2,7 +2,7 @@
   "name": "WTBinaryFloatingPointExtensions",
   "version": "1.0.0",
   "summary": "WTBinaryFloatingPointExtensions adds a number of useful extensions to all floating types.",
-  "description": "WTBinaryFloatingPointExtensions adds a number of useful extensions to all floating types,\nsuch as conversions between degrees and radians and uniform random distributions.",
+  "description": "WTBinaryFloatingPointExtensions adds a number of useful extensions to all floating types,\nsuch as conversions between degrees and radians and uniform pseudo-random distributions.",
   "homepage": "https://github.com/wltrup/WTBinaryFloatingPointExtensions",
   "license": {
     "type": "MIT",

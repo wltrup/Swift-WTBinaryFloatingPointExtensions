@@ -44,7 +44,7 @@ import Foundation
 public extension BinaryFloatingPoint
 {
     // MARK: - The most commonly used angles in trigonometry
-    
+
     /// The value of π/4 radians (45 degrees).
     public static var piOver4: Self { return Self.pi / 4 }
 
@@ -71,35 +71,36 @@ public extension BinaryFloatingPoint
     public var degreesInRadians: Self
     { return self * Self(M_PI / 180) }
 
-    // MARK: - Uniform random distributions
+    // MARK: - Uniform pseudo-random distributions
 
-    /// Returns a uniformly-distributed random value in the **closed** interval [0, 1].
+    /// Returns a uniformly-distributed pseudo-random value in the **closed** 
+    /// interval [0, 1].
     public static var random01: Self
     { return Self(arc4random_uniform(UInt32.max)) / Self(UInt32.max - 1) }
 
-    /// Returns a uniformly-distributed random value in the **closed** interval
-    /// [min(a,b), max(a,b)].
-    ///
-    /// - Parameters:
-    ///   - a: any value
-    ///   - b: any value
-    ///
-    /// - Returns: a uniformly-distributed random value in the **closed** interval
-    ///            [min(a,b), max(a,b)].
-    ///
-    /// - SeeAlso: `random01` for the special case of [a, b] = [0, 1].
-    /// - SeeAlso: `randomNonZero(a:b:)`.
-    public static func random(_ a: Self, _ b: Self) -> Self
-    { return a + (b - a) * Self.random01 }
-
-    /// Returns a uniformly-distributed random **non-zero** value in the **closed**
+    /// Returns a uniformly-distributed pseudo-random value in the **closed**
     /// interval [min(a,b), max(a,b)].
     ///
     /// - Parameters:
     ///   - a: any value
     ///   - b: any value
     ///
-    /// - Returns: a uniformly-distributed **non-zero** random value in
+    /// - Returns: a uniformly-distributed pseudo-random value in the **closed**
+    ///            interval [min(a,b), max(a,b)].
+    ///
+    /// - SeeAlso: `random01` for the special case of [a, b] = [0, 1].
+    /// - SeeAlso: `randomNonZero(a:b:)`.
+    public static func random(_ a: Self, _ b: Self) -> Self
+    { return a + (b - a) * Self.random01 }
+
+    /// Returns a uniformly-distributed pseudo-random **non-zero** value in the
+    /// **closed** interval [min(a,b), max(a,b)].
+    ///
+    /// - Parameters:
+    ///   - a: any value
+    ///   - b: any value
+    ///
+    /// - Returns: a uniformly-distributed **non-zero** pseudo-random value in
     ///            the **closed** interval [min(a,b), max(a,b)].
     ///
     /// - SeeAlso: `random01` for the special case of [a, b] = [0, 1].
