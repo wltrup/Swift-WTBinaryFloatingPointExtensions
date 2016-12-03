@@ -1,5 +1,5 @@
 PODS:
-  - WTBinaryFloatingPointExtensions (0.1.0)
+  - WTBinaryFloatingPointExtensions (1.0.0)
 
 DEPENDENCIES:
   - WTBinaryFloatingPointExtensions (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WTBinaryFloatingPointExtensions: 297424b0bde793256d17dcfd644894c7009eba20
+  WTBinaryFloatingPointExtensions: 631e3a4aef2a8bccefda0f26669318d7dc015fb0
 
 PODFILE CHECKSUM: 5cb2d5fb2b4c58bfd79339d9e5adf6fea9b1d785
 

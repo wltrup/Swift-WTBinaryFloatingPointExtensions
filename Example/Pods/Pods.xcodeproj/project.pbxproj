@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0F6FD6CAC0068F51FA2DC23B4E5E78AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		1D5AB47E98BF139B283123EFB4833080 /* WTBinaryFloatingPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B5AAE8BA3263D90F1952C5E0C6D0E2 /* WTBinaryFloatingPointExtensions.swift */; };
 		1DF6A64E53540BFE055E8CDCA6620AC2 /* Pods-WTBinaryFloatingPointExtensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB52938531FB1A0C6B94E659EB3EE492 /* Pods-WTBinaryFloatingPointExtensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51576BE60B8177185AF2817F0837870C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9299D653D0889CD955F903271F14400D /* WTBinaryFloatingPointExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 044130A49006A76B8E08EC2937784C97 /* WTBinaryFloatingPointExtensions-dummy.m */; };
 		EBBFE553516C0AA5D97AA0AF79BA6D27 /* WTBinaryFloatingPointExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D43E2C8D0E40F536B9205FCA9435F24 /* WTBinaryFloatingPointExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F578646550E8BE6E673139153E6A7FB3 /* WTBinaryFloatingPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BC20AD700453519B9A54059B79A398 /* WTBinaryFloatingPointExtensions.swift */; };
 		F7E45710D639F60B682620C8387EDF37 /* Pods-WTBinaryFloatingPointExtensions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B5E4B7791522B4AFF0869CA23D09A9 /* Pods-WTBinaryFloatingPointExtensions_Tests-dummy.m */; };
-		F81CB977E4B004B8C30FA13CD1549284 /* WTBinaryFloatingPointExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 044130A49006A76B8E08EC2937784C97 /* WTBinaryFloatingPointExtensions-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +28,8 @@
 
 /* Begin PBXFileReference section */
 		044130A49006A76B8E08EC2937784C97 /* WTBinaryFloatingPointExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WTBinaryFloatingPointExtensions-dummy.m"; sourceTree = "<group>"; };
-		06C6240B171AE76E598FD70610FAEFAB /* Pods-WTBinaryFloatingPointExtensions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WTBinaryFloatingPointExtensions_Tests.modulemap"; sourceTree = "<group>"; };
-		0D5294D57CF5E003CCFD6A76ED5C786C /* Pods_WTBinaryFloatingPointExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTBinaryFloatingPointExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C6240B171AE76E598FD70610FAEFAB /* Pods-WTBinaryFloatingPointExtensions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WTBinaryFloatingPointExtensions_Tests.modulemap"; sourceTree = "<group>"; };
+		0D5294D57CF5E003CCFD6A76ED5C786C /* Pods_WTBinaryFloatingPointExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WTBinaryFloatingPointExtensions_Tests.framework; path = "Pods-WTBinaryFloatingPointExtensions_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18056C76AAE70775FD8ACC9814D3AE48 /* WTBinaryFloatingPointExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WTBinaryFloatingPointExtensions.xcconfig; sourceTree = "<group>"; };
 		1CC6D4AFE6840FB84FD7008EFC171EBC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33B5E4B7791522B4AFF0869CA23D09A9 /* Pods-WTBinaryFloatingPointExtensions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WTBinaryFloatingPointExtensions_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -37,14 +37,14 @@
 		5694DB294342F61023CDEFD21D796E82 /* Pods-WTBinaryFloatingPointExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTBinaryFloatingPointExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6D43E2C8D0E40F536B9205FCA9435F24 /* WTBinaryFloatingPointExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTBinaryFloatingPointExtensions-umbrella.h"; sourceTree = "<group>"; };
 		8CD95F51ABC129DAE6356A27E90BAC8B /* Pods-WTBinaryFloatingPointExtensions_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTBinaryFloatingPointExtensions_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2B5AAE8BA3263D90F1952C5E0C6D0E2 /* WTBinaryFloatingPointExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WTBinaryFloatingPointExtensions.swift; sourceTree = "<group>"; };
-		AA0FB1E95CCD99DD93263091C9E880F8 /* WTBinaryFloatingPointExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WTBinaryFloatingPointExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B403791774EE830B7F5E1F14F8AF5C9C /* WTBinaryFloatingPointExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WTBinaryFloatingPointExtensions.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA0FB1E95CCD99DD93263091C9E880F8 /* WTBinaryFloatingPointExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WTBinaryFloatingPointExtensions.framework; path = WTBinaryFloatingPointExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B403791774EE830B7F5E1F14F8AF5C9C /* WTBinaryFloatingPointExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WTBinaryFloatingPointExtensions.modulemap; sourceTree = "<group>"; };
 		B54A4719D3D6D449E89A2701356B45E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB52938531FB1A0C6B94E659EB3EE492 /* Pods-WTBinaryFloatingPointExtensions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WTBinaryFloatingPointExtensions_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BC1FBE58C5482D9A5112946BF5F0BD14 /* Pods-WTBinaryFloatingPointExtensions_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WTBinaryFloatingPointExtensions_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D9BC20AD700453519B9A54059B79A398 /* WTBinaryFloatingPointExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WTBinaryFloatingPointExtensions.swift; sourceTree = "<group>"; };
 		DA21D0B8FA779708A237215BB0C53129 /* WTBinaryFloatingPointExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTBinaryFloatingPointExtensions-prefix.pch"; sourceTree = "<group>"; };
 		F4452331092FBF97D665755F5DBB4255 /* Pods-WTBinaryFloatingPointExtensions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WTBinaryFloatingPointExtensions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FDC6E7480B102E672A689329A39026E7 /* Pods-WTBinaryFloatingPointExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTBinaryFloatingPointExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -70,11 +70,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F8254BF6CC55529E6B93F084147D882 /* Classes */ = {
+		049D5377A0342B39BC1E77D0564DF87A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A2B5AAE8BA3263D90F1952C5E0C6D0E2 /* WTBinaryFloatingPointExtensions.swift */,
+				D9BC20AD700453519B9A54059B79A398 /* WTBinaryFloatingPointExtensions.swift */,
 			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -89,8 +90,9 @@
 		50946583BD022975D300AAD8763A33BA /* WTBinaryFloatingPointExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				2F8254BF6CC55529E6B93F084147D882 /* Classes */,
+				049D5377A0342B39BC1E77D0564DF87A /* Classes */,
 			);
+			name = WTBinaryFloatingPointExtensions;
 			path = WTBinaryFloatingPointExtensions;
 			sourceTree = "<group>";
 		};
@@ -206,7 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C740B139116798CBC830B9098E826422 /* Build configuration list for PBXNativeTarget "WTBinaryFloatingPointExtensions" */;
 			buildPhases = (
-				99F84B9AA374193BDF2D3A23BB456B3E /* Sources */,
+				EC7999D3484C2781E886A582686E0D8D /* Sources */,
 				F5D69CD7E97A97F0EAD5D11A0B519488 /* Frameworks */,
 				A47ACFF173E7DFFFC1464C1CE1D52A6C /* Headers */,
 			);
@@ -245,14 +247,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					5C969B7B6374B97CD506C92F99C6FA75 = {
-						LastSwiftMigration = 0810;
-					};
-					A186B834E8CC24237F07F6C4FA3DEE73 = {
-						LastSwiftMigration = 0810;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -273,20 +267,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		99F84B9AA374193BDF2D3A23BB456B3E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1D5AB47E98BF139B283123EFB4833080 /* WTBinaryFloatingPointExtensions.swift in Sources */,
-				F81CB977E4B004B8C30FA13CD1549284 /* WTBinaryFloatingPointExtensions-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E9E69815D4DFD40BD7B055101B68EB1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F7E45710D639F60B682620C8387EDF37 /* Pods-WTBinaryFloatingPointExtensions_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7999D3484C2781E886A582686E0D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9299D653D0889CD955F903271F14400D /* WTBinaryFloatingPointExtensions-dummy.m in Sources */,
+				F578646550E8BE6E673139153E6A7FB3 /* WTBinaryFloatingPointExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,45 +325,11 @@
 				PRODUCT_NAME = Pods_WTBinaryFloatingPointExtensions_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		8C6069C3CE42BA6573DA6CABE8D01A50 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18056C76AAE70775FD8ACC9814D3AE48 /* WTBinaryFloatingPointExtensions.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/WTBinaryFloatingPointExtensions/WTBinaryFloatingPointExtensions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WTBinaryFloatingPointExtensions/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WTBinaryFloatingPointExtensions/WTBinaryFloatingPointExtensions.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = WTBinaryFloatingPointExtensions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -485,6 +445,38 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B16A980501F8F2D454F8668F03B09E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18056C76AAE70775FD8ACC9814D3AE48 /* WTBinaryFloatingPointExtensions.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WTBinaryFloatingPointExtensions/WTBinaryFloatingPointExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WTBinaryFloatingPointExtensions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WTBinaryFloatingPointExtensions/WTBinaryFloatingPointExtensions.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WTBinaryFloatingPointExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -492,7 +484,7 @@
 			};
 			name = Debug;
 		};
-		CF24E2C7D35BFE301C25677804C6C589 /* Release */ = {
+		F23AAC7084756FEA8166B51912B03BF5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 18056C76AAE70775FD8ACC9814D3AE48 /* WTBinaryFloatingPointExtensions.xcconfig */;
 			buildSettings = {
@@ -548,8 +540,8 @@
 		C740B139116798CBC830B9098E826422 /* Build configuration list for PBXNativeTarget "WTBinaryFloatingPointExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C6069C3CE42BA6573DA6CABE8D01A50 /* Debug */,
-				CF24E2C7D35BFE301C25677804C6C589 /* Release */,
+				B16A980501F8F2D454F8668F03B09E07 /* Debug */,
+				F23AAC7084756FEA8166B51912B03BF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
