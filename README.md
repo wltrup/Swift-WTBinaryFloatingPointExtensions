@@ -5,15 +5,20 @@
 [![License](https://img.shields.io/cocoapods/l/WTBinaryFloatingPointExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBinaryFloatingPointExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTBinaryFloatingPointExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBinaryFloatingPointExtensions)
 
-## Example
+## What
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+**WTBinaryFloatingPointExtensions** adds to **all** floating point types some commonly used
+trigonometry-related computed properties, conversions between degrees and radians, and functions
+to generate uniformly distributed (pseudo) random values.
 
-## Requirements
+## Why
+
+Because I find myself using those quite often and they are missing from the default implementations
+of the floating point types.
 
 ## Installation
 
-WTBinaryFloatingPointExtensions is available through [CocoaPods](http://cocoapods.org). To install
+**WTBinaryFloatingPointExtensions** is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
@@ -26,4 +31,4 @@ Wagner Truppel, trupwl@gmail.com
 
 ## License
 
-WTBinaryFloatingPointExtensions is available under the MIT license. See the LICENSE file for more info.
+**WTBinaryFloatingPointExtensions** is available under the MIT license. See the LICENSE file for more info.
