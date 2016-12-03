@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WTBinaryFloatingPointExtensions'
   s.version          = '1.0.0'
-  s.summary          = 'WTBinaryFloatingPointExtensions adds a number of useful extensions to all floating types, such as conversions between degrees and radians and uniform random distributions.'
+  s.summary          = 'WTBinaryFloatingPointExtensions adds a number of useful extensions to all floating types.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
