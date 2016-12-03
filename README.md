@@ -16,6 +16,10 @@ to generate uniformly distributed (pseudo) random values.
 Because I find myself using those quite often and they are missing from the default implementations
 of the floating point types.
 
+## Tests
+
+**WTBinaryFloatingPointExtensions** adds 9 extensions, all fully tested by 13 tests with 100% coverage.
+
 ## Installation
 
 **WTBinaryFloatingPointExtensions** is available through [CocoaPods](http://cocoapods.org). To install
