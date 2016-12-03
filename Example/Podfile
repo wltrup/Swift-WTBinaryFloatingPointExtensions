@@ -1,0 +1,6 @@
+use_frameworks!
+target 'WTBinaryFloatingPointExtensions_Tests' do
+  pod 'WTBinaryFloatingPointExtensions', :path => '../'
+  
+  
+end
