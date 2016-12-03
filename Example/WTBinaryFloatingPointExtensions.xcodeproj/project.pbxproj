@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		06DA6712787F6D0857EA5ACC /* Pods_WTBinaryFloatingPointExtensions_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365F90291282621D511C1F56 /* Pods_WTBinaryFloatingPointExtensions_Tests.framework */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		3BC0BA141DF2A36300DE8C93 /* WTBinaryFloatingPointExtensionsTestsBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC0BA131DF2A36300DE8C93 /* WTBinaryFloatingPointExtensionsTestsBase.swift */; };
+		607FACEC1AFB9204008FA782 /* WTBinaryFloatingPointExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* WTBinaryFloatingPointExtensionsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		365F90291282621D511C1F56 /* Pods_WTBinaryFloatingPointExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTBinaryFloatingPointExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC0BA131DF2A36300DE8C93 /* WTBinaryFloatingPointExtensionsTestsBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTBinaryFloatingPointExtensionsTestsBase.swift; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* WTBinaryFloatingPointExtensions_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTBinaryFloatingPointExtensions_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* WTBinaryFloatingPointExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTBinaryFloatingPointExtensionsTests.swift; sourceTree = "<group>"; };
 		BFE0679243EE885B85C596E8 /* Pods-WTBinaryFloatingPointExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTBinaryFloatingPointExtensions_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTBinaryFloatingPointExtensions_Tests/Pods-WTBinaryFloatingPointExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C220F9EEA8712942981E7481 /* Pods-WTBinaryFloatingPointExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTBinaryFloatingPointExtensions_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTBinaryFloatingPointExtensions_Tests/Pods-WTBinaryFloatingPointExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C2DFB4535AC5015BA276478E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -65,7 +67,8 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				3BC0BA131DF2A36300DE8C93 /* WTBinaryFloatingPointExtensionsTestsBase.swift */,
+				607FACEB1AFB9204008FA782 /* WTBinaryFloatingPointExtensionsTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -219,7 +222,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				3BC0BA141DF2A36300DE8C93 /* WTBinaryFloatingPointExtensionsTestsBase.swift in Sources */,
+				607FACEC1AFB9204008FA782 /* WTBinaryFloatingPointExtensionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

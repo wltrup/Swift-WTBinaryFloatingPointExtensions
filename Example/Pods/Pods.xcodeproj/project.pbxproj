@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0F6FD6CAC0068F51FA2DC23B4E5E78AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		1D5AB47E98BF139B283123EFB4833080 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B5AAE8BA3263D90F1952C5E0C6D0E2 /* ReplaceMe.swift */; };
+		1D5AB47E98BF139B283123EFB4833080 /* WTBinaryFloatingPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B5AAE8BA3263D90F1952C5E0C6D0E2 /* WTBinaryFloatingPointExtensions.swift */; };
 		1DF6A64E53540BFE055E8CDCA6620AC2 /* Pods-WTBinaryFloatingPointExtensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB52938531FB1A0C6B94E659EB3EE492 /* Pods-WTBinaryFloatingPointExtensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51576BE60B8177185AF2817F0837870C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		EBBFE553516C0AA5D97AA0AF79BA6D27 /* WTBinaryFloatingPointExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D43E2C8D0E40F536B9205FCA9435F24 /* WTBinaryFloatingPointExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,7 +38,7 @@
 		6D43E2C8D0E40F536B9205FCA9435F24 /* WTBinaryFloatingPointExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTBinaryFloatingPointExtensions-umbrella.h"; sourceTree = "<group>"; };
 		8CD95F51ABC129DAE6356A27E90BAC8B /* Pods-WTBinaryFloatingPointExtensions_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTBinaryFloatingPointExtensions_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2B5AAE8BA3263D90F1952C5E0C6D0E2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		A2B5AAE8BA3263D90F1952C5E0C6D0E2 /* WTBinaryFloatingPointExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WTBinaryFloatingPointExtensions.swift; sourceTree = "<group>"; };
 		AA0FB1E95CCD99DD93263091C9E880F8 /* WTBinaryFloatingPointExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WTBinaryFloatingPointExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B403791774EE830B7F5E1F14F8AF5C9C /* WTBinaryFloatingPointExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WTBinaryFloatingPointExtensions.modulemap; sourceTree = "<group>"; };
 		B54A4719D3D6D449E89A2701356B45E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		2F8254BF6CC55529E6B93F084147D882 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A2B5AAE8BA3263D90F1952C5E0C6D0E2 /* ReplaceMe.swift */,
+				A2B5AAE8BA3263D90F1952C5E0C6D0E2 /* WTBinaryFloatingPointExtensions.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -277,7 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D5AB47E98BF139B283123EFB4833080 /* ReplaceMe.swift in Sources */,
+				1D5AB47E98BF139B283123EFB4833080 /* WTBinaryFloatingPointExtensions.swift in Sources */,
 				F81CB977E4B004B8C30FA13CD1549284 /* WTBinaryFloatingPointExtensions-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
