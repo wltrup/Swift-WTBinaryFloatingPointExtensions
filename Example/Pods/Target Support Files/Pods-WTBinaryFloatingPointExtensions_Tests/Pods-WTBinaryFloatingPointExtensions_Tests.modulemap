@@ -1,0 +1,6 @@
+framework module Pods_WTBinaryFloatingPointExtensions_Tests {
+  umbrella header "Pods-WTBinaryFloatingPointExtensions_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

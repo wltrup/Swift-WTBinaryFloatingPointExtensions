@@ -1,0 +1,16 @@
+PODS:
+  - WTBinaryFloatingPointExtensions (0.1.0)
+
+DEPENDENCIES:
+  - WTBinaryFloatingPointExtensions (from `../`)
+
+EXTERNAL SOURCES:
+  WTBinaryFloatingPointExtensions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WTBinaryFloatingPointExtensions: 297424b0bde793256d17dcfd644894c7009eba20
+
+PODFILE CHECKSUM: 5cb2d5fb2b4c58bfd79339d9e5adf6fea9b1d785
+
+COCOAPODS: 1.1.1
