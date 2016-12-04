@@ -321,6 +321,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C220F9EEA8712942981E7481 /* Pods-WTBinaryFloatingPointExtensions_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -341,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BFE0679243EE885B85C596E8 /* Pods-WTBinaryFloatingPointExtensions_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

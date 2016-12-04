@@ -9,7 +9,22 @@
 
 **WTBinaryFloatingPointExtensions** adds to **all** floating point types some commonly used
 trigonometry-related computed properties, conversions between degrees and radians, and functions
-to generate uniformly distributed (pseudo) random values.
+to generate uniformly distributed (pseudo) random values. Here's the full set of API additions:
+
+```swift
+public static var piOver4: Self { get }
+public static var piOver2: Self { get }
+public static var threePiOver2: Self { get }
+public static var twoPi: Self { get }
+
+public var radiansInDegrees: Self { get }
+public var degreesInRadians: Self { get }
+
+public static var random01: Self { get }
+
+public static func random(_ a: Self, _ b: Self) -> Self
+public static func randomNonZero(_ a: Self, _ b: Self) -> Self
+```
 
 ## Why
 
