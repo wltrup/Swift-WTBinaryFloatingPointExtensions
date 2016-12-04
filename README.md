@@ -7,9 +7,10 @@
 
 ## What
 
-**WTBinaryFloatingPointExtensions** adds to **all** floating point types some commonly used
-trigonometry-related computed properties, conversions between degrees and radians, and functions
-to generate uniformly distributed (pseudo) random values. Here's the full set of API additions:
+**WTBinaryFloatingPointExtensions** adds to all floating point types conforming to the
+`BinaryFloatingPoint` protocol some commonly used trigonometry-related computed properties,
+conversions between degrees and radians, and functions to generate uniformly distributed
+(pseudo) random values. Here's the full set of API additions:
 
 ```swift
 public static var piOver4: Self { get }
