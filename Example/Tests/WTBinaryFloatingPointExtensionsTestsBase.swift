@@ -37,11 +37,11 @@ class WTBinaryFloatingPointExtensionsTestsBase: XCTestCase
             .map { ($0 - average)*($0 - average) }
             .reduce(0, +) / n
 
-        expectedValue = 1/2
+        expectedValue = 1.0/2.0
         resultedValue = average
         assertAbsoluteDifferenceWithinTolerance()
 
-        expectedValue = 1/12
+        expectedValue = 1.0/12.0
         resultedValue = variance
         assertAbsoluteDifferenceWithinTolerance()
     }
