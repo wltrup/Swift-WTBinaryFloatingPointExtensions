@@ -41,6 +41,11 @@ of the floating point types.
 
 **WTBinaryFloatingPointExtensions** adds 9 extensions, all fully tested by 13 tests with 100% coverage.
 
+## Changelog
+
+Changes to **WTBinaryFloatingPointExtensions** are listed
+[here](https://github.com/wltrup/Swift-WTBinaryFloatingPointExtensions/blob/master/CHANGELOG.md).
+
 ## Installation
 
 **WTBinaryFloatingPointExtensions** is available through [CocoaPods](http://cocoapods.org). To install
