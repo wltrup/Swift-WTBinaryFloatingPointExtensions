@@ -102,12 +102,28 @@ class WTBinaryFloatingPointExtensionsTests: WTBinaryFloatingPointExtensionsTests
         testRandomness(values)
     }
 
+    func test_randomNonZeroThrowsOnBothArgumentsZero()
+    {
+        do {
+            let _ = try Double.randomNonZero(0, 0)
+            XCTFail()
+        }
+        catch {
+            let expectedError = WTBinaryFloatingPointExtensionsError.allArgumentsAreZero
+            let resultedError = error
+
+            XCTAssertTrue(resultedError is WTBinaryFloatingPointExtensionsError)
+            if let resultedError = resultedError as? WTBinaryFloatingPointExtensionsError
+            { XCTAssertEqual(resultedError, expectedError) }
+        }
+    }
+
     func test_randomNonZeroGeneratesNonZeroValues()
     {
         N = 10_000
 
         (1...N).forEach { _ in
-            let r = Double.randomNonZero(-1, 1)
+            let r = try! Double.randomNonZero(-1, 1)
             XCTAssertTrue(r != 0)
         }
     }
@@ -118,7 +134,7 @@ class WTBinaryFloatingPointExtensionsTests: WTBinaryFloatingPointExtensionsTests
         let max: Double =  100
 
         (1...N).forEach { _ in
-            let r = Double.randomNonZero(min, max)
+            let r = try! Double.randomNonZero(min, max)
             XCTAssertTrue(r >= min && r <= max)
         }
     }
@@ -128,7 +144,7 @@ class WTBinaryFloatingPointExtensionsTests: WTBinaryFloatingPointExtensionsTests
         N = 10_000
         tolerance = 1e-2
 
-        let values = (1...N).map { _ in Double.randomNonZero(0, 1) }
+        let values = (1...N).map { _ in try! Double.randomNonZero(0, 1) }
         testRandomness(values)
     }
 }

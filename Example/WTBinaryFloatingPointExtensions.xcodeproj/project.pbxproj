@@ -14,6 +14,7 @@
 
 /* Begin PBXFileReference section */
 		365F90291282621D511C1F56 /* Pods_WTBinaryFloatingPointExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTBinaryFloatingPointExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7C316C1DF544CD008D4CD3 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
 		3BC0BA131DF2A36300DE8C93 /* WTBinaryFloatingPointExtensionsTestsBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTBinaryFloatingPointExtensionsTestsBase.swift; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* WTBinaryFloatingPointExtensions_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTBinaryFloatingPointExtensions_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,6 +88,7 @@
 			children = (
 				E9F8F7343045A79A4E17B28C /* WTBinaryFloatingPointExtensions.podspec */,
 				C2DFB4535AC5015BA276478E /* README.md */,
+				3B7C316C1DF544CD008D4CD3 /* CHANGELOG.md */,
 				F8D8A0BDD7C1AB0B7724A178 /* LICENSE */,
 			);
 			name = "Podspec Metadata";

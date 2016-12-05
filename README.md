@@ -13,6 +13,11 @@ conversions between degrees and radians, and functions to generate uniformly dis
 (pseudo) random values. Here's the full set of API additions:
 
 ```swift
+public enum WTBinaryFloatingPointExtensionsError : Error
+{
+    case allArgumentsAreZero
+}
+
 public static var piOver4: Self { get }
 public static var piOver2: Self { get }
 public static var threePiOver2: Self { get }
@@ -24,7 +29,7 @@ public var degreesInRadians: Self { get }
 public static var random01: Self { get }
 
 public static func random(_ a: Self, _ b: Self) -> Self
-public static func randomNonZero(_ a: Self, _ b: Self) -> Self
+public static func randomNonZero(_ a: Self, _ b: Self) throws -> Self
 ```
 
 ## Why
