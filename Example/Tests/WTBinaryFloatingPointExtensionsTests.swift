@@ -75,7 +75,7 @@ class WTBinaryFloatingPointExtensionsTests: WTBinaryFloatingPointExtensionsTests
 
     func test_random01Randomness()
     {
-        N = 100_000
+        N = 10_000
         tolerance = 1e-2
 
         let values = (1...N).map { _ in Double.random01 }
@@ -95,7 +95,7 @@ class WTBinaryFloatingPointExtensionsTests: WTBinaryFloatingPointExtensionsTests
 
     func test_randomRandomness()
     {
-        N = 100_000
+        N = 10_000
         tolerance = 1e-2
 
         let values = (1...N).map { _ in Double.random(0, 1) }
@@ -104,7 +104,7 @@ class WTBinaryFloatingPointExtensionsTests: WTBinaryFloatingPointExtensionsTests
 
     func test_randomNonZeroGeneratesNonZeroValues()
     {
-        N = 100_000
+        N = 10_000
 
         (1...N).forEach { _ in
             let r = Double.randomNonZero(-1, 1)
@@ -125,7 +125,7 @@ class WTBinaryFloatingPointExtensionsTests: WTBinaryFloatingPointExtensionsTests
 
     func test_randomNonZeroRandomness()
     {
-        N = 100_000
+        N = 10_000
         tolerance = 1e-2
 
         let values = (1...N).map { _ in Double.randomNonZero(0, 1) }
