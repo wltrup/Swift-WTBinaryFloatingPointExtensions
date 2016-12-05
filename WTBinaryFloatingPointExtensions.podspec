@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name          = 'WTBinaryFloatingPointExtensions'
-    s.version       = '1.0.1'
+    s.version       = '1.0.2'
     s.summary       = 'WTBinaryFloatingPointExtensions adds a number of useful extensions to all floating types.'
     s.description   = <<-DESC
             WTBinaryFloatingPointExtensions adds a number of useful extensions to all floating types,
