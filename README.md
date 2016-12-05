@@ -39,7 +39,7 @@ of the floating point types.
 
 ## Tests
 
-**WTBinaryFloatingPointExtensions** adds 9 extensions, all fully tested by 13 tests with 100% coverage.
+**WTBinaryFloatingPointExtensions** adds 9 extensions, all fully tested by 14 tests with 100% coverage.
 
 ## Changelog
 
