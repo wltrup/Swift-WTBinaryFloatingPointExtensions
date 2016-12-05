@@ -52,7 +52,7 @@ class WTBinaryFloatingPointExtensionsTestsBase: XCTestCase
     {
         super.setUp()
 
-        tolerance = 1e-12
+        tolerance = 1e-8
         N = 100
     }
 }
