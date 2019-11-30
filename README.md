@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/WTBinaryFloatingPointExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBinaryFloatingPointExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTBinaryFloatingPointExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBinaryFloatingPointExtensions)
 
+## IMPORTANT
+2019.11.30: This project has been **deprecated** since the Swift Standard Library now has (part of) the functionality that this library provides. The remaining functionality - the trigonometry-associated one - isn't so hard to implement on a case-by-case basis.
+
 ## What
 
 **WTBinaryFloatingPointExtensions** adds to all floating point types conforming to the
